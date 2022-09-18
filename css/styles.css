@@ -447,12 +447,16 @@ body {
 .footer-container {
 	align-items: baseline;
 	display: flex;
-	gap: 70px;
 }
 .footer {
 	background-color: var(--main-bg-color);
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.footer-aside {
+	margin-right: 70px;
+	flex-grow: 1;
 }
 
 .footer-logo {
@@ -506,6 +510,10 @@ body {
 .address-link:hover,
 .address-link:focus {
 	color: var(--accent-txt-color);
+}
+
+.footer-social {
+	margin-right: 93px;
 }
 
 .footer-titel {
@@ -582,8 +590,11 @@ body {
 	display: flex;
 	gap: 10px;
 	cursor: pointer;
-
-	transition: ;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
 }
 
 .paper-airplan-icon {
@@ -683,7 +694,7 @@ body {
 
 .register-icon {
 	position: absolute;
-	bottom: 11px;
+	bottom: 14px;
 	left: 12px;
 
 	transition: fill var(--anim);
@@ -697,6 +708,9 @@ body {
 	margin-bottom: 12px;
 }
 
+.register-txt {
+	margin-bottom: 4px;
+}
 .register-form-input {
 	width: 448px;
 	height: 40px;
@@ -751,6 +765,7 @@ body {
 	line-height: calc(24 / 14);
 	user-select: none;
 	gap: 4px;
+	color: var(--second-txt-color);
 }
 
 .icon-check {
@@ -790,6 +805,11 @@ body {
 	border-radius: 4px;
 	margin: 0 auto;
 	cursor: pointer;
+	font-family: var(--main-font);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
 }
 /* madal end */
 
